@@ -1,0 +1,14 @@
+{
+    "name": "Driver Help Bot",
+    "description": "Công cụ tìm kiếm tài liệu trên nề tản messenger.",
+    "type": "php",
+    "authors": [
+        {
+            "name": "Tran Duc Y ",
+            "email": "ducyk41cntt@gmail.com"
+        }
+    ],
+    "require": {
+        "google/apiclient": "^2.0"
+     }
+}
