@@ -21,6 +21,7 @@ git clone https://github.com/VNBot-Developers/Drive-Bot && cd Drive-Bot
 composer install
 ```
 Ngay lập tức hệ thống sẽ Download source về (công việc này sẽ hoàn thành trong vòng 2-3p dựa trên tốc độ mạng của bạn)
+</br>
 4. Tiến hành cấu hình trong file config.php
 <br>
 Bạn chỉ cần thay đổi giá trị chuổi trong biến $q theo đúng mục đích của bạn.
