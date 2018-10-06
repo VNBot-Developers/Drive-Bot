@@ -33,6 +33,7 @@ Bạn chỉ cần thay đổi giá trị chuổi trong biến $q theo đúng m�
 6. Truy cập url trỏ đến drive.php của bạn sau đó cài đặt đăng nhập vào tài khoản của bạn bằng click vào "click"
 ![](https://i.imgur.com/ZLGnER3.png)
 7. Accept quền truy cập
+</br>
 8. Sau bước 7 hệ thống sẽ cấp cho bạn 1 token. Copy token này và dán vào input rồi nhấn send.
 ![](https://i.imgur.com/sAgzsCC.png)
 9. Tận hưởng.
