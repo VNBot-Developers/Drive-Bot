@@ -27,7 +27,8 @@ Ngay lập tức hệ thống sẽ Download source về (công việc này sẽ 
 Bạn chỉ cần thay đổi giá trị chuổi trong biến $q theo đúng mục đích của bạn.
 <br>
 <b>Note </b>: Bạn cần tìm hiểu cách viết query cho truy vấn của bạn tại [đây](Query.md)
-5. 1 Bước nữa bạn cần setup một số thứ trên Chatfuel để BOT đi vào hoạt động
+</br>
+5. 1 Bước nữa bạn cần setup một số thứ trên Chatfuel để BOT đi vào hoạt động. Xem set up ChatFuel tại [đây](ChatFuel.md) 
 ### Với hosting
 1. Download source code đầy đủ tại [đây](https://drive.google.com/open?id=1tMz6D1U_u_wrXx_xJHw_okzLBVsHMGqE)
 2. Up lên hosting bằng ftp client
