@@ -34,8 +34,8 @@ Bạn chỉ cần thay đổi giá trị chuổi trong biến $q theo đúng m�
 ![](https://i.imgur.com/ZLGnER3.png)
 7. Accept quền truy cập
 8. Sau bước 7 hệ thống sẽ cấp cho bạn 1 token. Copy token này và dán vào input rồi nhấn send.
-9. Tận hưởng.
 ![](https://i.imgur.com/sAgzsCC.png)
+9. Tận hưởng.
 ### Với hosting
 1. Download source code đầy đủ tại [đây](https://drive.google.com/open?id=1tMz6D1U_u_wrXx_xJHw_okzLBVsHMGqE)
 2. Up lên hosting bằng ftp client
