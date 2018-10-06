@@ -29,11 +29,16 @@ Bạn chỉ cần thay đổi giá trị chuổi trong biến $q theo đúng m�
 <b>Note </b>: Bạn cần tìm hiểu cách viết query cho truy vấn của bạn tại [đây](Query.md)
 </br>
 5. 1 Bước nữa bạn cần setup một số thứ trên Chatfuel để BOT đi vào hoạt động. Xem set up ChatFuel tại [đây](ChatFuel.md) 
+6. Truy cập url trỏ đến drive.php của bạn sau đó cài đặt đăng nhập vào tài khoản của bạn bằng click vào "click"
+![](https://i.imgur.com/ZLGnER3.png)
+7. Accept quền truy cập
+8. Sau bước 7 hệ thống sẽ cấp cho bạn 1 token. Copy token này và dán vào input rồi nhấn send.
+9. Tận hưởng.
+![](https://i.imgur.com/sAgzsCC.png)
 ### Với hosting
 1. Download source code đầy đủ tại [đây](https://drive.google.com/open?id=1tMz6D1U_u_wrXx_xJHw_okzLBVsHMGqE)
 2. Up lên hosting bằng ftp client
 3. Làm tương tự từ bước 4 trở về sau như hướng dân với VPS
-
 ## About Me
 Facebook: [Trần Đức Ý](https://www.facebook.com/Tranducy1999)
 </br>

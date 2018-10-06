@@ -30,11 +30,11 @@ Bạn hoàn toàn có thể sử dụng các toán tử >, <, =, <=, >=, trong t
 </br>
 - Tìm kiếm các file và forder trong 2 forder trở lên
 ```
-" (('[Forder_ID]' in parents) and '[Forder_ID]' in parents) and (...) and ..."
+" (('[Forder_ID]' in parents) or '[Forder_ID]' in parents) or (...) or ..."
 ```
 Dấu ... là dấu cần điền nhá :v
 <br>
 VD:
 ```
-"(('0B4FH8NB1ulOxfmR3TDljR2NPVlk1R2pVOFZ5b044S2J1SHFDUnNtbmpTUnpqNVk1MEJValU' in parents) and ('0B9GvBjf6V7-MZTg4SUZJRWpTTFU' in parents)) "
+"(('0B4FH8NB1ulOxfmR3TDljR2NPVlk1R2pVOFZ5b044S2J1SHFDUnNtbmpTUnpqNVk1MEJValU' in parents) or ('0B9GvBjf6V7-MZTg4SUZJRWpTTFU' in parents)) "
 
