@@ -1,7 +1,6 @@
 <?php
 // If modifying these scopes, delete your previously saved credentials
 // at ~/.credentials/drive-php-quickstart.json
-echo $_SERVER['SCRIPT_URI'];
 define('APPLICATION_NAME', 'Drive API Quickstart');
 define('CREDENTIALS_PATH', '~/credentials/drive-php-quickstart.json');
 define('CLIENT_SECRET_PATH', __DIR__ . '/client_secret.json');
