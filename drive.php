@@ -87,7 +87,7 @@ function expandHomeDirectory($path) {
 // Main code ^^
 $client = getClient();
 $service = new Google_Service_Drive($client);
-$query = $q." and name contains "."'". $_GET['q'] ."'";
+$query = $q." name contains "."'". $_GET['q'] ."'";
 // echo $query;
 // Print the names and IDs for up to 40 files.
 $optParams = array(
