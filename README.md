@@ -28,7 +28,8 @@ Bạn chỉ cần thay đổi giá trị chuổi trong biến $q theo đúng m�
 <br>
 <b>Note </b>: Bạn cần tìm hiểu cách viết query cho truy vấn của bạn tại [đây](Query.md)
 </br>
-5. 1 Bước nữa bạn cần setup một số thứ trên Chatfuel để BOT đi vào hoạt động. Xem set up ChatFuel tại [đây](ChatFuel.md) 
+5. 1 Bước nữa bạn cần setup một số thứ trên Chatfuel để BOT đi vào hoạt động. Xem set up ChatFuel tại [đây](ChatFuel.md)
+</br> 
 6. Truy cập url trỏ đến drive.php của bạn sau đó cài đặt đăng nhập vào tài khoản của bạn bằng click vào "click"
 ![](https://i.imgur.com/ZLGnER3.png)
 7. Accept quền truy cập
