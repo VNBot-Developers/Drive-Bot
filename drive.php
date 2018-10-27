@@ -3,6 +3,10 @@ require_once __DIR__ . '/vendor/autoload.php';
 require_once __DIR__.'/chatfuel.php';
 require_once __DIR__ . '/config.php';
 $url =  (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "http" : "https") . "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
+$temp = array();
+$temp = explode("?",$url);
+$url = $temp[0];
+echo $url;
 /**
  * Returns an authorized API client.
  * @return Google_Client the authorized client object
