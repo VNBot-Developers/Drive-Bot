@@ -130,8 +130,8 @@ if (isset($_GET['id'])){
 
 if ($id >= count($data)){
   if(isset($_GET['id']))
-    sendText("Hết rùi. Đừng bấm nữa @@");
+    sendText("No more results found.");
 }else {
-  sendButton("Tên: ".$data[$id]['name'], $data[$id]['link'], $url."?q=".$_GET['q']. "&id=".++$id);
+  sendButton("Name: ".$data[$id]['name'], $data[$id]['link'], $url."?q=".$_GET['q']. "&id=".++$id);
 }
 

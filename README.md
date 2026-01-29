@@ -1,47 +1,72 @@
 # Drive-Bot
-Drive-Bot sẽ giúp bạn tìm kiếm tài liệu dựa trên không gian lưu trữ khổng lồ trên google drive trên nền tản Messenger Facebook.
+
+Drive-Bot is a Facebook Messenger-based tool designed to help you search for documents across extensive Google Drive storage spaces seamlessly.
+
 ![img](https://i.imgur.com/OylNJWm.png)
-## Requirement
-- Apache2 hoặc nginx
-- Php 5.6 trở lên
-- Có cài composer (Có cũng được không có cũng được nhưng tác giả khuyên thế :) )
-- VPS hoặc Hosting
-## Install
-### Với Máy chủ ảo (VPS):
-1. Chuyển đến thư mục html
-```
-cd /var/www/html
-```
-2. Clone source code về máy
-```
-git clone https://github.com/VNBot-Developers/Drive-Bot && cd Drive-Bot
-```
-3. Download Source còn thiếu bằng composer
-```
-composer install
-```
-Ngay lập tức hệ thống sẽ Download source về (công việc này sẽ hoàn thành trong vòng 2-3p dựa trên tốc độ mạng của bạn)
-</br>
-4. Tiến hành cấu hình trong file config.php
-<br>
-Bạn chỉ cần thay đổi giá trị chuổi trong biến $q theo đúng mục đích của bạn.
-<br>
-<b>Note </b>: Bạn cần tìm hiểu cách viết query cho truy vấn của bạn tại [đây](Query.md)
-</br>
-5. 1 Bước nữa bạn cần setup một số thứ trên Chatfuel để BOT đi vào hoạt động. Xem set up ChatFuel tại [đây](ChatFuel.md)
-</br> 
-6. Truy cập url trỏ đến drive.php của bạn sau đó cài đặt đăng nhập vào tài khoản của bạn bằng click vào "click"
-![](https://i.imgur.com/ZLGnER3.png)
-7. Accept quền truy cập
-</br>
-8. Sau bước 7 hệ thống sẽ cấp cho bạn 1 token. Copy token này và dán vào input rồi nhấn send.
-![](https://i.imgur.com/sAgzsCC.png)
-9. Tận hưởng.
-### Với hosting
-1. Download source code đầy đủ tại [đây](https://drive.google.com/open?id=1tMz6D1U_u_wrXx_xJHw_okzLBVsHMGqE)
-2. Up lên hosting bằng ftp client
-3. Làm tương tự từ bước 4 trở về sau như hướng dân với VPS
-## About Me
-Facebook: [Trần Đức Ý](https://www.facebook.com/Tranducy1999)
-</br>
-Email: ducyk41cntt@gmail.com 
+
+## Prerequisites
+
+To deploy Drive-Bot, ensure your environment meets the following requirements:
+
+- **Web Server:** Apache2 or Nginx
+- **PHP:** Version 5.6 or higher
+- **Composer:** PHP dependency manager (Recommended)
+- **Infrastructure:** VPS or shared hosting with internet access
+
+## Installation
+
+### Deployment on a VPS
+
+1.  **Navigate to your web root directory:**
+    ```bash
+    cd /var/www/html
+    ```
+
+2.  **Clone the repository and enter the project folder:**
+    ```bash
+    git clone https://github.com/VNBot-Developers/Drive-Bot && cd Drive-Bot
+    ```
+
+3.  **Install dependencies:**
+    Use Composer to install the required PHP libraries:
+    ```bash
+    composer install
+    ```
+    *The installation process typically completes within 2–3 minutes, depending on your network speed.*
+
+4.  **Configure the application:**
+    Open `config.php` and update the `$q` variable to match your specific search criteria.
+    - **Note:** For details on constructing search queries, please refer to the [Query Documentation](Query.md).
+
+5.  **Set up Chatfuel:**
+    Integration with Facebook Messenger requires specific configurations on Chatfuel. Follow the instructions in the [Chatfuel Setup Guide](ChatFuel.md).
+
+6.  **Authenticate with Google Drive:**
+    Access the URL pointing to `drive.php` on your server. Click the "click" link to initiate the Google OAuth login process.
+    ![](https://i.imgur.com/ZLGnER3.png)
+
+7.  **Grant Permissions:**
+    Authorize the application to access your Google Drive when prompted.
+
+8.  **Token Configuration:**
+    After authorization, the system will generate an access token. Copy this token, paste it into the provided input field, and click **Send**.
+    ![](https://i.imgur.com/sAgzsCC.png)
+
+9.  **Deployment Complete:**
+    Drive-Bot is now ready for operation.
+
+### Deployment on Shared Hosting
+
+1.  **Download the source:**
+    Download the complete source code package from [this link](https://drive.google.com/open?id=1tMz6D1U_u_wrXx_xJHw_okzLBVsHMGqE).
+2.  **Upload files:**
+    Upload the files to your hosting directory using an FTP client (e.g., FileZilla).
+3.  **Finalize Setup:**
+    Follow steps 4 through 8 as described in the VPS deployment section to complete the configuration.
+
+## Support & Contact
+
+If you have any questions or need assistance, feel free to reach out:
+
+- **Facebook:** [Trần Đức Ý](https://www.facebook.com/Tranducy1999)
+- **Email:** [ducyk41cntt@gmail.com](mailto:ducyk41cntt@gmail.com)

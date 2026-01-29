@@ -38,7 +38,7 @@ function sendButton($text,$link,$postback){
                     array (
                       'type' => 'json_plugin_url',
                       'url' => $postback,
-                      'title' => 'Không, cái khác cơ'
+                      'title' => 'No, another one'
                     ),
                   ),
                 ),
